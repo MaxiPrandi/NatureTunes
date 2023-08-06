@@ -13,9 +13,12 @@ function NavBar() {
                     <Link to='/' className="text-decoration-none text-light ">  Ver condiciones</Link>
                 </h5>
             </Row>
+
             <Row className="mt-3">
-                <Col md={2} className="box1 mt-2">
-                    <Link to="/" className="text-light">LOGO</Link>
+                <Col md={2} className=" mt-2">
+                    <Link to="/" className="text-light">
+                        <img src="./src/assets/images/monochrome-black.svg" className="mt-1 ms-3" alt="logo" />
+                    </Link>
                 </Col>
                 <Col md={8} className="mt-2 ">
 
@@ -36,7 +39,7 @@ function NavBar() {
                     </div>
                 </Col>
             </Row>
-
+{/* Links de Navbar */}
             <div className='links'>
                 <Link to='/seccion1' className="me-4 linkk">AURICULARES</Link>
                 <Link to='/seccion1' className="me-4 linkk">PARLANTES</Link>
