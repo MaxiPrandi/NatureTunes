@@ -3,18 +3,16 @@ import './App.css'
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import { Link } from "react-router-dom";
 
 
 
-const Home = () => {
+const Seccion1 = () => {
     return (
         <Container fluid className="contenedor">
 
-            <div>
-                <h1>Nature Tunes</h1>
-                <Link to='/seccion1' className='btn btn-primary'>Ir a seccion 1</Link>
-            </div>
+            <Row>
+                <h1>Seccion 1</h1>
+            </Row>
 
             <Row>
                 <Col className="box1 mt-2">Box 1</Col>
@@ -28,4 +26,4 @@ const Home = () => {
     )
 }
 
-export { Home }
+export { Seccion1 }
