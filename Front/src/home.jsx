@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <Container fluid className="contenedor">
+        <Container  className="contenedor">
             <Row>
                 <h1>NATURE TUNES FOTO</h1>
             </Row>
