@@ -7,7 +7,7 @@ function NavBar() {
     return (
 
 
-        <Container fluid>
+        <Container>
             <Row className="barra text-light p-2">
                 <h5>Envio gratis a partir de $10.000.
                     <Link to='/' className="text-decoration-none text-light ">  Ver condiciones</Link>
