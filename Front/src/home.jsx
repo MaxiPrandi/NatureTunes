@@ -1,19 +1,20 @@
 import React from "react";
 import '/public/styles/App.css'
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col, Image } from "react-bootstrap"
 import { Link } from "react-router-dom";
+import Imagen1 from './assets/Images/imagen1.jpg'
 
 
 
 const Home = () => {
     return (
-        <Container  className="contenedor">
+        <>
+        <div className="imgCentral"><Image src={Imagen1} alt="imagen bienvenida" fluid/></div>
+
+        <Container fluid className="contenedor">
             <Row>
-                <h1>NATURE TUNES FOTO</h1>
-            </Row>
-            <Row>
-                <h3 className="text-start">ACERCA DE THE HOUSE OF MARLEY</h3>
-                <p className="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis odit molestiae exercitationem esse, corrupti obcaecati sequi sint fugiat illum error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ducimus error odit aliquid dolor, nemo, doloribus laboriosam dolorum neque, sint quaerat id. Minima, at. Hic atque vel dolores quod laborum?</p>
+                <h3 className="pt-4">ACERCA DE THE HOUSE OF MARLEY</h3>
+                <p className="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis odit molestiae exercitationem esse, corrupti obcaecati sequi sint fugiat illum error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ducimus error odit aliquid dolor, nemo, doloribus laboriosam dolorum neque, sint quaerat id. Minima, at. Hic atque vel dolores quod laborum?</p>
             </Row>
 
 
@@ -29,7 +30,7 @@ const Home = () => {
                 </Col>
             </Row>
 
-        </Container>
+        </Container></>
 
 
     );
