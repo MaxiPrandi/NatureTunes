@@ -13,7 +13,7 @@ const Home = () => {
 
         <Container fluid className="contenedor">
             <Row>
-                <h3 className="pt-4">ACERCA DE THE HOUSE OF MARLEY</h3>
+                <h3 className="pt-4">ACERCA DE la Hermana OF MARLEY</h3>
                 <p className="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis odit molestiae exercitationem esse, corrupti obcaecati sequi sint fugiat illum error?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ducimus error odit aliquid dolor, nemo, doloribus laboriosam dolorum neque, sint quaerat id. Minima, at. Hic atque vel dolores quod laborum?</p>
             </Row>
 
