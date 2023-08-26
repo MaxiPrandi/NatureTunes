@@ -8,20 +8,20 @@ function NavBar() {
 
 
         <Container fluid>
-            <Row className="barra text-light p-2">
+            <Row className="barra text-light pt-2">
                 <h5>Envio gratis a partir de $10.000.
                     <Link to='/' className="text-decoration-none text-light ">  Ver condiciones</Link>
                 </h5>
             </Row>
 
-            <Row className="mt-3">
-                <Col md={2} className="mt-2">
+            <Row className="mt-2 mx-5">
+                <Col md={2} className="mt-3">
                     <Link to="/" className="text-light">
-                        <img src="./src/assets/images/default2.png" className="ms-3" alt="logo" />
+                        <img src="./src/assets/images/default2.png" className="img-thumbnail border-0 p-1 d-flex" alt="logo" />
                     </Link>
                 </Col>
 
-                <Col md={8} className="mt-4 ">
+                <Col md={8} className="mt-4">
                     <div className="input-wrapper">
                         <input type="search" placeholder="¿Que estas buscando?" className="buscador py-2 me-2 rounded-pill" />
                         <svg

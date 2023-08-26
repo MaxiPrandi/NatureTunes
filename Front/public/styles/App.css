@@ -11,29 +11,14 @@
 }
 
 .contenedor {
-  background-color: rgb(160, 160, 160);
   font-family: 'Archivo Narrow', Arial, Helvetica, sans-serif;
-  color: white;
+  font-size: 16px;
+  color: black;
 }
+
 h3, h4 {
   font-family: 'Caveat';
   font-weight: 600;
- 
-}
-
-.box1 {
-  background-color: rgb(17, 116, 129);
-  color: white;
-}
-
-.box2 {
-  background-color: rgb(109, 121, 175);
-  color: white;
-}
-
-.box3 {
-  background-color: rgb(17, 116, 129);
-  color: white;
 }
 
 .navbar {
@@ -59,8 +44,8 @@ h3, h4 {
 }
 
 .buscador {
-  width: 40rem;
-  padding-left: 2.2rem;
+  width: 35rem;
+  padding-left: 2.5rem;
   padding-right: 5%;
   border: 1px solid gray;
   line-height: 0.5rem;
