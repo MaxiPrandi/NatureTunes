@@ -21,9 +21,9 @@ const Footer = () => {
                 </Col>
             </Row>
             <Row className="footer2">
-                <Col>TÉRMINOS Y CONDICIONES POLÍTICA DE PRIVACIDAD DEFENSA DEL CONSUMIDOR
+                <Col xs={12}md={6}><p>TÉRMINOS Y CONDICIONES POLÍTICA DE PRIVACIDAD DEFENSA DEL CONSUMIDOR</p> 
                 </Col>
-                <Col>Copyright 2023
+                <Col xs={12}md={6}><p>Copyright © 2023</p>
                 </Col>
             
             </Row>
