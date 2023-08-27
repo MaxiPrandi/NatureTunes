@@ -10,13 +10,13 @@ const Footer = () => {
     return(
         <Container fluid>
             <Row className="footer1">
-                <Col><h4>Atencion al cliente</h4> 
+                <Col xs={12} md={4}><h4>Atencion al cliente</h4> 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, obcaecati?</p>
                 </Col>
-                <Col><h4>Compañia </h4>
+                <Col xs={12}md={4}><h4>Compañia </h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, obcaecati?</p>
                 </Col>
-                <Col><h4>Siganos </h4>
+                <Col xs={12}md={4}><h4>Siganos </h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, obcaecati?</p>
                 </Col>
             </Row>

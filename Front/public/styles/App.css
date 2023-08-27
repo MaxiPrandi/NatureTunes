@@ -18,8 +18,7 @@
   color: black;
 }
 
-h3,
-h4 {
+h3,h4 {
   font-family: 'Caveat';
   font-weight: 600;
 }
@@ -83,6 +82,9 @@ h4 {
 .footer1 {
   background-color: black;
   color: white;
+}
+.footer1 p{
+  color:rgb( 238, 187, 0);
 }
 
 .footer2 {
