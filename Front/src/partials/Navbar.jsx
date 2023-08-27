@@ -1,8 +1,8 @@
 import React from "react";
 import '/public/styles/App.css'
-import { Container, Row, Col, Form, Button, Image } from "react-bootstrap"
+import { Container, Row, Col, Image } from "react-bootstrap"
 import { Link } from "react-router-dom";
-import Logo from '../assets/images/default2.png'
+import Logo from '../assets/Images/default2.png'
 
 
 
@@ -21,7 +21,7 @@ function NavBar() {
             <Row className="mt-2 mx-5">
                 <Col xs={12} md={2} className="mt-3">
                     <Link to="/" className="text-light">
-                        <Image src={Logo}  alt="logo"  fluid/>
+                        <Image src={Logo}  alt="logo" className="img-thumbnail border-0 p-1 d-flex" fluid />
                     </Link>
                 </Col>
                 {/* buscador */}
@@ -29,9 +29,9 @@ function NavBar() {
                 <Col xs={12} md={8} className="mt-4">
                     <div className="input-wrapper">
                         <input type="search" placeholder="¿Que estas buscando?" className="buscador py-2 me-2 ps-3 rounded-pill" />
-                        <svg xmlns="http://www.w3.org/2000/svg" class="input-icon lupa" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                                clip-rule="evenodd" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" className="input-icon lupa" viewBox="0 0 20 20" fill="currentColor">
+                            <path fillRule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                                clipRule="evenodd" /></svg>
                         <button type="button" className="btn btn-outline-secondary rounded-pill boton">Buscar</button>
                     </div>
                 </Col>
