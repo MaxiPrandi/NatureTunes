@@ -21,7 +21,7 @@ function NavBar() {
             <Row className="mt-2 mx-5">
                 <Col xs={12} md={2} className="mt-3">
                     <Link to="/" className="text-light">
-                        <Image src={Logo}  alt="logo" className="img-thumbnail border-0 p-1 d-flex" fluid/>
+                        <Image src={Logo}  alt="logo"  fluid/>
                     </Link>
                 </Col>
                 {/* buscador */}
