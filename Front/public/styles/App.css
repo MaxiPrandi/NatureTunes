@@ -160,7 +160,9 @@ h4 {
   .lupa {
     display: none;
   }
-
+  .footer1{
+    padding-bottom: 25px;
+  }
   .footer2 {
     padding-top: 35px;
 
