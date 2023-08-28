@@ -50,11 +50,11 @@ function NavBar() {
             </Row>
             {/* Links de Navbar */}
             <Row className="justify-content-md-center mt-3">
-                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">AURICULARES</Link></Col>
-                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">PARLANTES</Link></Col>
-                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">BANDEJAS</Link></Col>
-                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">PROYECTO</Link></Col>
-                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">MATERIALES</Link></Col>
+                <Col xs="12" md="auto"><Link to='/' className="linkk">AURICULARES</Link></Col>
+                <Col xs="12" md="auto"><Link to='/' className="linkk">PARLANTES</Link></Col>
+                <Col xs="12" md="auto"><Link to='/' className="linkk">BANDEJAS</Link></Col>
+                <Col xs="12" md="auto"><Link to='/' className="linkk">PROYECTO</Link></Col>
+                <Col xs="12" md="auto"><Link to='/' className="linkk">MATERIALES</Link></Col>
 
             </Row>
 

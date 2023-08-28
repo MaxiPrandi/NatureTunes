@@ -80,9 +80,8 @@ h3,h4 {
   border-radius: 40px;
   display: block;
   margin-bottom: -20px;
-
-
   }
+  
 .linkk:hover::after{
   width: 100%;
   transition: width 0.3s linear;
@@ -151,6 +150,11 @@ h3,h4 {
     padding-top: 35px;
     
   }
+  .linkk:hover::after{
+    width: 40%;
+    transition: width 0.3s linear;
+  }
+
 
 }
 
