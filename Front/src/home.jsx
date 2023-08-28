@@ -20,7 +20,7 @@ const Home = () => {
                     </svg> </a>
             </div>
 
-            <div className="imgCentral"><Image src={Imagen1} alt="imagen bienvenida" fluid /></div>
+            <div ><Image className="imgCentral" src={Imagen1} alt="imagen bienvenida"  /></div>
 
             <Container className="contenedor">
                 <Row>

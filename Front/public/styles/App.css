@@ -18,7 +18,8 @@
   color: black;
 }
 
-h3,h4 {
+h3,
+h4 {
   font-family: 'Caveat';
   font-weight: 600;
 }
@@ -60,6 +61,12 @@ h3,h4 {
   width: 4rem;
 }
 
+.imgCentral {
+  width: 100%;
+  height: 100%;
+
+
+}
 
 
 .linkk {
@@ -68,21 +75,21 @@ h3,h4 {
   color: black;
   font-size: 1.5rem;
   font-weight: bolder;
-  margin:2px;
-  }
+  margin: 2px;
+}
 
-.linkk::after{
+.linkk::after {
   content: '';
   width: 0;
   height: 5px;
-  background-color: rgb( 238, 187, 0);
+  background-color: rgb(238, 187, 0);
   margin: auto;
   border-radius: 40px;
   display: block;
   margin-bottom: -20px;
-  }
-  
-.linkk:hover::after{
+}
+
+.linkk:hover::after {
   width: 100%;
   transition: width 0.3s linear;
 }
@@ -95,19 +102,20 @@ h3,h4 {
   background-color: black;
   color: white;
 }
-.footer1 p{
-  color:rgb( 238, 187, 0);
+
+.footer1 p {
+  color: rgb(238, 187, 0);
 }
 
 .footer2 {
   background-color: rgb(10, 10, 10);
   color: white;
-  
+
 }
 
 /* Boton Whatsapp */
-.btn-wsp{
-  
+.btn-wsp {
+
   position: fixed;
   width: 55px;
   height: 55px;
@@ -119,12 +127,13 @@ h3,h4 {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 0px 1px 10px rgba(0,0,0,0.3) ;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 10;
 }
-.btn-wsp:hover{
+
+.btn-wsp:hover {
   text-decoration: none;
-  color:#0df053;
+  color: #0df053;
   background-color: #fff;
 }
 
@@ -137,6 +146,12 @@ h3,h4 {
     padding: 0;
   }
 
+  .imgCentral {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+
+  }
 
   .boton {
     margin-top: 10px;
@@ -146,11 +161,12 @@ h3,h4 {
     display: none;
   }
 
-  .footer2{
+  .footer2 {
     padding-top: 35px;
-    
+
   }
-  .linkk:hover::after{
+
+  .linkk:hover::after {
     width: 40%;
     transition: width 0.3s linear;
   }
