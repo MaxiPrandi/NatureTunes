@@ -46,7 +46,7 @@ h3,h4 {
 }
 
 .buscador {
-  width: 70%;
+  width: 80%;
   padding-left: 2.5rem;
   padding-right: 5%;
   border: 1px solid gray;
@@ -60,19 +60,32 @@ h3,h4 {
   width: 4rem;
 }
 
-.links {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
+
 
 .linkk {
   font-family: 'Caveat';
-  font-weight: 600;
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: bolder;
+  margin:2px;
+  }
+
+.linkk::after{
+  content: '';
+  width: 0;
+  height: 5px;
+  background-color: rgb( 238, 187, 0);
+  margin: auto;
+  border-radius: 40px;
+  display: block;
+  margin-bottom: -20px;
+
+
+  }
+.linkk:hover::after{
+  width: 100%;
+  transition: width 0.3s linear;
 }
 
 .barra {
@@ -90,7 +103,32 @@ h3,h4 {
 .footer2 {
   background-color: rgb(10, 10, 10);
   color: white;
+  
 }
+
+/* Boton Whatsapp */
+.btn-wsp{
+  
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  left: 30px;
+  background-color: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3) ;
+  z-index: 10;
+}
+.btn-wsp:hover{
+  text-decoration: none;
+  color:#0df053;
+  background-color: #fff;
+}
+
 
 /* Responsive */
 
