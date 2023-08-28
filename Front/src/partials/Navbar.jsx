@@ -21,7 +21,7 @@ function NavBar() {
             <Row className="mt-2 mx-5">
                 <Col xs={12} md={2} className="mt-3">
                     <Link to="/" className="text-light">
-                        <Image src={Logo}  alt="logo" className="img-thumbnail border-0 p-1 d-flex" fluid />
+                        <Image src={Logo} alt="logo" className="img-thumbnail border-0 p-1 d-flex" fluid />
                     </Link>
                 </Col>
                 {/* buscador */}
@@ -49,23 +49,13 @@ function NavBar() {
                 </Col>
             </Row>
             {/* Links de Navbar */}
-            <Row className='links mt-4'>
+            <Row className="justify-content-md-center mt-3">
+                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">AURICULARES</Link></Col>
+                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">PARLANTES</Link></Col>
+                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">BANDEJAS</Link></Col>
+                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">PROYECTO</Link></Col>
+                <Col xs="12" md="auto"><Link to='/seccion1' className="linkk">MATERIALES</Link></Col>
 
-                <Col xs={12} md={3}>
-                    <Link to='/seccion1' className="me-4 linkk">AURICULARES</Link>
-                </Col>
-                <Col xs={12} md={2}>
-                    <Link to='/seccion1' className="me-4 linkk">PARLANTES</Link>
-                </Col>
-                <Col xs={12} md={2}>
-                    <Link to='/seccion1' className="me-4 linkk">BANDEJAS</Link>
-                </Col>
-                <Col xs={12} md={2}>
-                    <Link to='/seccion1' className="me-4 linkk">PROYECTO</Link>
-                </Col>
-                <Col xs={12} md={3}>
-                    <Link to='/seccion1' className="me-4 linkk">MATERIALES</Link>
-                </Col>
             </Row>
 
 
@@ -75,4 +65,5 @@ function NavBar() {
 }
 
 export { NavBar }
+
 
