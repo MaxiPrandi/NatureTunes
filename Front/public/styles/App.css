@@ -18,8 +18,7 @@
   color: black;
 }
 
-h3,
-h4 {
+h2,h3,h4 {
   font-family: 'Caveat';
   font-weight: 600;
 }
@@ -111,6 +110,13 @@ h4 {
   background-color: rgb(10, 10, 10);
   color: white;
 
+}
+.textCond{
+ padding:30px 70px;
+ font-size: 1.2rem;
+}
+.login{
+  padding:5px 100px 200px 100px;
 }
 
 /* Boton Whatsapp */
