@@ -16,7 +16,7 @@ const Login = () => {
                 </div>
 
                 <Row className="login">
-                    <Col xs={12} md={6}><h2 className="pt-5 pb-5 fw-bold">ACCEDER</h2>
+                    <Col xs={12} md={6}><h2 className="fw-bold acceso">ACCEDER</h2>
                         <Form>
                             <Form.Group className="mb-5 text-start fw-bold" controlId="login">
                                 <Form.Label>Nombre de usuario o Email*</Form.Label>
@@ -42,7 +42,7 @@ const Login = () => {
                         </Form>
                         <p className="text-start fs-5">¿Olvidaste tu contraseña?</p>
                     </Col>
-                    <Col xs={12} md={6}><h2 className="pt-5 pb-5 fw-bold">REGISTRARSE</h2>
+                    <Col xs={12} md={6}><h2 className="acceso fw-bold">REGISTRARSE</h2>
                         <Form>
                             <Form.Group className="mb-5 text-start fw-bold" controlId="signup">
                                 <Form.Label>Dirección de correo electrónico *</Form.Label>
@@ -59,12 +59,6 @@ const Login = () => {
                         </Form>
                     </Col>
                 </Row>
-
-
-
-
-
-
             </Container>
 
         </>
