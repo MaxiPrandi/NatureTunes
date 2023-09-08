@@ -38,15 +38,15 @@ const Home = () => {
 
 
                 <Row className="mb-5">
-                    <Col xs={12} md={4} className=" pt-3"><h3 className="bg-dark text-white p-2 fw-bold">Nuestro Sonido </h3>
+                    <Col xs={12} md={4} className=" pt-3"><h3 className="bg-dark text-white p-2">Nuestro Sonido </h3>
                         <div className="py-2 shadow pb-5 p-3"><Image src={Imagen2} alt="imagen sonido" fluid /></div>
                         <p className="mt-3 p-2">En NatureTunes, creemos en la poderosa sinfonía que se crea al unir la música y la sostenibilidad. Estamos aquí para todos ustedes, apasionados amantes de la música en todas sus formas, desde el nostálgico disco de vinilo que hace palpitar el corazón, hasta los modernos soportes digitales que nos acompañan a donde vayamos.</p>
                     </Col>
-                    <Col xs={12} md={4} className=" pt-3"><h3 className="bg-dark text-white p-2 fw-bold">Nuestros Materiales </h3>
+                    <Col xs={12} md={4} className=" pt-3"><h3 className="bg-dark text-white p-2">Nuestros Materiales </h3>
                         <div className="py-2 shadow pb-5 p-3"><Image src={Imagen3} alt="imagen materiales" fluid /></div>
                         <p className="mt-3 p-2">Nuestros productos no son simplemente dispositivos de reproducción, son una expresión de nuestro compromiso con un mundo mejor. Cada creación de NatureTunes es el resultado de una meticulosa combinación entre tecnología de vanguardia y un enfoque innovador en la reutilización de materiales. Utilizamos materiales reciclados de la más alta calidad para dar vida a productos que no solo te ofrecen un rendimiento excepcional, sino que también cuentan una historia de sostenibilidad y responsabilidad ambiental.</p>
                     </Col>
-                    <Col xs={12} md={4} className=" pt-3"><h3 className="bg-dark text-white p-2 fw-bold"> Nuestro Proceso</h3>
+                    <Col xs={12} md={4} className=" pt-3"><h3 className="bg-dark text-white p-2"> Nuestro Proceso</h3>
                         <div className="py-2 shadow pb-5 p-3"><Image src={Imagen4} alt="imagen fabricacion" fluid /></div>
                         <p className="mt-3 p-2">En NatureTunes, no solo estamos cambiando la forma en que disfrutas de tu música favorita, sino que también estamos contribuyendo activamente a la reducción de residuos y al aprovechamiento de recursos valiosos. Cada vez que elijes uno de nuestros productos, te unes a nuestra misión de marcar la diferencia, nota a nota.</p>
                     </Col>
