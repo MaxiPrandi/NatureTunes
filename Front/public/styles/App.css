@@ -18,7 +18,9 @@
   color: black;
 }
 
-h2,h3,h4 {
+h2,
+h3,
+h4 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
@@ -35,16 +37,6 @@ h2,h3,h4 {
   position: relative;
 }
 
-.input-icon {
-  color: rgb(74, 74, 74);
-  position: absolute;
-  width: 1.2rem;
-  height: 1.2rem;
-  left: 6rem;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 .buscador {
   width: 80%;
   padding-left: 2.5rem;
@@ -54,9 +46,12 @@ h2,h3,h4 {
 
 }
 
-.icons {
-  display: flex;
-  width: 4rem;
+.icons-divider {
+  border-left: 1px solid rgba(0,0,0,.1);
+  height: 30px;
+  margin: 0 15px;
+  position: relative;
+  vertical-align: middle;
 }
 
 .imgCentral {
@@ -110,14 +105,17 @@ h2,h3,h4 {
   color: white;
 
 }
-.textCond{
- padding:30px 70px;
- font-size: 1.2rem;
+
+.textCond {
+  padding: 30px 70px;
+  font-size: 1.2rem;
 }
-.login{
-  padding:5px 100px 80px 100px;
+
+.login {
+  padding: 5px 100px 80px 100px;
 }
-.acceso{
+
+.acceso {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -166,12 +164,10 @@ h2,h3,h4 {
     margin-top: 10px;
   }
 
-  .lupa {
-    display: none;
-  }
-  .footer1{
+  .footer1 {
     padding-bottom: 25px;
   }
+
   .footer2 {
     padding-top: 35px;
 
@@ -181,20 +177,19 @@ h2,h3,h4 {
     width: 40%;
     transition: width 0.3s linear;
   }
-.login{
-  padding: 5px;
-}
-.acceso{
-  background-color: #212529;
-  padding: 5px;
-  color: white;
-}
+
+  .login {
+    padding: 5px;
+  }
+
+  .acceso {
+    background-color: #212529;
+    padding: 5px;
+    color: white;
+  }
 }
 
 @media (max-width: 767.98px) {
-  .lupa {
-    display: none;
-  }
-
+  
 
 }
