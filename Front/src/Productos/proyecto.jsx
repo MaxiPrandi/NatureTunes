@@ -1,16 +1,18 @@
 import React from "react";
-import '/public/styles/App.css'
-import { Container, Row, Col } from "react-bootstrap"
+import '../../public/styles/App.css'
+import { Container, Row, Col, Form, Button, Image } from "react-bootstrap"
+import { Link } from "react-router-dom";
 
 
-
-const Seccion1 = () => {
+const Proyecto = () => {
     return (
-        <div>
+        <>
+
+
             <Container fluid className="contenedor">
 
                 <Row>
-                    <h1>Seccion 1</h1>
+                    <h1>PROYECTO</h1>
                 </Row>
                 <Row>
                     <Col md={12} className="box1 mt-2">Box 1</Col>
@@ -19,9 +21,9 @@ const Seccion1 = () => {
                 </Row>
 
             </Container>
-        </div>
-
+        </>
     )
 }
 
-export { Seccion1 }
+
+export { Proyecto }
