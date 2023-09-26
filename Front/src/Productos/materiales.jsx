@@ -12,7 +12,7 @@ const Materiales= () => {
             <Container fluid className="contenedor">
 
                 <Row>
-                    <h1>Materiales</h1>
+                    <h1>MATERIALES</h1>
                 </Row>
                 <Row>
                     <Col md={12} className="box1 mt-2">Box 1</Col>
